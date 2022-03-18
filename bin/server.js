@@ -11,11 +11,10 @@ function normalizaPort(val) {
     if (port >= 0) {
         return port;
     }
-
-    return false
+    return false;
 }
 
-app.listen(port,function () {
+app.listen(port, function () {
     console.log(`app listening on port ${port}`)
 })
 
